@@ -1,0 +1,199 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.main {
+    width: 100%;
+
+
+}
+
+nav {
+
+    width: 100%;
+    background: url(img/Regio-artwork.jpg);
+    background-position: center;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo a {
+
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+.logo a:hover{
+    cursor: pointer;
+    color: salmon;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+
+
+}
+
+ul {
+
+    margin-right: 100px;
+}
+
+ul li {
+
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: salmon;
+
+
+}
+
+.content {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+.content h1 {
+
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.content p {
+
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.contact h1 {
+
+    font-size: 12px;
+    position: absolute;
+    transform: translate(1270px, 535px);
+
+}
+
+.contact h2 {
+
+    font-size: 12px;
+    position: absolute;
+    transform: translate(4px, 550px);
+
+}
+
+.contact h1:hover {
+    cursor: pointer;
+    color: salmon;
+
+}
+
+.contact h2:hover {
+
+    cursor: pointer;
+    color: salmon;
+}
+
+.meny h1 {
+
+    color: white;
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+    transform: translate(620px, 2px);
+
+
+}
+
+.col1 {
+    background-color: rgba(245, 255, 250, 0.459);
+    float: left;
+    width: 50%;
+    color: black;
+    border: dotted white;
+    
+}
+
+.col1 li {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.col2 li {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.col2 {
+    background-color: rgba(245, 255, 250, 0.459);
+    color: black;
+    float: right;
+    width: 50%;
+    border: dotted white;
+}
+
+.col3{
+    background-color:rgba(245, 255, 250, 0.459) ;
+    color: black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    border: dotted white;
+    
+}
+
+
+
+.menymat h1{
+    text-align: center;
+
+}
+
+
+
+.row:after {
+    display: table;
+    clear: both;
+}
